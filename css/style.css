@@ -142,7 +142,7 @@ nav a:hover, nav a:focus {
 first div in the grid  and place it in the grid. */
 /* First child selects every <div> element that is the first child of its parent. You do NOT apply first child to the parent element that contains the element you are trying to style. */
 div:first-child {
-  background-image: url("/images/header.jpg");
+  background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
   grid-column: 1 / -1;
 }
